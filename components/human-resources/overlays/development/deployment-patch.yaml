@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:b78164eb2c038ee44288265e77df7c834be79e245fa14ee8b8ba510aa318cce5
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:a0109b5839892ed31abff61faf904971fb511250fef26c4a2f31d7f1c6394b69
         name: my-java-springboot
         resources: {}
 status: {}
