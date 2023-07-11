@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: python-app-multi-components-repo
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
