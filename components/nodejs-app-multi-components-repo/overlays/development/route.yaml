@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: nodejs-app-multi-components-repo
     app.kubernetes.io/part-of: test-application
-  name: nodejs-app-multi-componenu0pi
+  name: nodejs-app-multi-componenz3cm
 spec:
   port:
     targetPort: 8080
