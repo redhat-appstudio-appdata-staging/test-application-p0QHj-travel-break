@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-app-multi-components-repo
     app.kubernetes.io/part-of: test-application
-  name: python-app-multi-componentazb
+  name: python-app-multi-componenjjlz
 spec:
   port:
     targetPort: 8080
