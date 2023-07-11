@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: nodejs-app-multi-components-repo
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:674cec67cc41f185da51da713615ae164c8c8f08c57c1a03bf791b840127ab85
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:52c3bc54f6c96a3b4d32434e13f9370674c7e61510e4b2ccf0640f44c29bc1d9
         name: my-nodejs
         resources: {}
 status: {}
