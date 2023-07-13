@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: pacman-ccgs
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/pacman-ccgs@sha256:4ac046f3388139a63ab2439acaf6c6432b9d92ad7fff8064934170f9475129d4
+        name: container-image
+        resources: {}
+status: {}
