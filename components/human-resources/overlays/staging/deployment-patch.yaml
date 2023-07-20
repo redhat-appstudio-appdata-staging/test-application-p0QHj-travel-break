@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: human-resources
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:a0109b5839892ed31abff61faf904971fb511250fef26c4a2f31d7f1c6394b69
+        name: my-java-springboot
+        resources: {}
+status: {}
