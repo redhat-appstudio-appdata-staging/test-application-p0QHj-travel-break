@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: human-resources
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:0a24a3c20e09d0a9436b301d60dce16f8e66c61a90058bca61e62325439a1e2c
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:a0109b5839892ed31abff61faf904971fb511250fef26c4a2f31d7f1c6394b69
         name: my-java-springboot
         ports:
         - containerPort: 8081
