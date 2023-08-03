@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:674cec67cc41f185da51da713615ae164c8c8f08c57c1a03bf791b840127ab85
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:cad181cdf1ad03f0910745ed34e807ceeba9622ce9cf4eb8b75fe5c76acb2f7c
         name: my-nodejs
         resources: {}
 status: {}
