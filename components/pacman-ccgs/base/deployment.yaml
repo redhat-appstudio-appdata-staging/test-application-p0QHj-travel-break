@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: pacman-ccgs
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/pacman-ccgs@sha256:a9edbef8da43adfcd70bc1ce773fe083b0d8384fdd7ff4fc022286a30a40947f
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/pacman-ccgs@sha256:4ac046f3388139a63ab2439acaf6c6432b9d92ad7fff8064934170f9475129d4
         imagePullPolicy: Always
         name: container-image
         ports:
