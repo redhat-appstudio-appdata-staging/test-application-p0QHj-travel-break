@@ -30,7 +30,7 @@ spec:
           value: quay.io/redhat-user-workloads-stage/test-ns/test-application/human-resources:3450decf7174f23304c8e523bc998526ef57e559
         - name: IMAGE_DIGEST
           value: sha256:1d6da200c8ae98384a35bae37516d07b453dde85a91ff891ce57f3a99d420e6a
-        image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:70c8bfe0dc7bf2e24dc816eef123da8f83a3b42d06a41954248d0011a7d58645
+        image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/human-resources@sha256:de7c823cd558d666addfde6393cddee2be32bd8b528ccff19eb3b221df49cf51
         name: my-java-springboot
         ports:
         - containerPort: 8081
