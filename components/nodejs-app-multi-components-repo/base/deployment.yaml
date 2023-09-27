@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: nodejs-app-multi-components-repo
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:52c3bc54f6c96a3b4d32434e13f9370674c7e61510e4b2ccf0640f44c29bc1d9
+      - image: quay.io/redhat-user-workloads-stage/jephilli-tenant/test-application/nodejs-app-multi-components-repo@sha256:cad181cdf1ad03f0910745ed34e807ceeba9622ce9cf4eb8b75fe5c76acb2f7c
         name: my-nodejs
         ports:
         - containerPort: 3001
